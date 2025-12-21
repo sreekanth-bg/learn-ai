@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d917bb7e89299673",
@@ -95,8 +96,8 @@
               "type": "backlink",
               "state": {
                 "file": "Conceptual Layers/Overview.md",
-                "collapseAll": false,
-                "extraContext": false,
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -165,12 +166,12 @@
               "title": "Outline of Overview"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,8 +186,11 @@
   },
   "active": "0202b5fe3fa28a1c",
   "lastOpenFiles": [
-    "asset/layers-of-ai.png",
+    "Conceptual Layers/AI Agents.md",
     "Conceptual Layers/Overview.md",
+    "README.md",
+    "asset/layers-of-ai.png",
+    "asset/diverse-ai-agents.png",
     "asset/The.md",
     "assest/The.md",
     "assest",
