@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Conceptual Layers/Overview.md",
+                "file": "Conceptual Layers/AI Agents.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Overview"
+              "title": "AI Agents"
             }
           }
         ]
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Conceptual Layers/Overview.md",
+                "file": "Conceptual Layers/AI Agents.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Overview"
+              "title": "Backlinks for AI Agents"
             }
           },
           {
@@ -114,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Conceptual Layers/Overview.md",
+                "file": "Conceptual Layers/AI Agents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Overview"
+              "title": "Outgoing links from AI Agents"
             }
           },
           {
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Conceptual Layers/Overview.md",
+                "file": "Conceptual Layers/AI Agents.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Overview"
+              "title": "Outline of AI Agents"
             }
           }
         ],
@@ -186,8 +186,8 @@
   },
   "active": "0202b5fe3fa28a1c",
   "lastOpenFiles": [
-    "Conceptual Layers/AI Agents.md",
     "Conceptual Layers/Overview.md",
+    "Conceptual Layers/AI Agents.md",
     "README.md",
     "asset/layers-of-ai.png",
     "asset/diverse-ai-agents.png",

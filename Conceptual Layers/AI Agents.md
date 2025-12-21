@@ -11,15 +11,13 @@ In the **layered AI reference model**, **AI agents primarily live in** **_Layer 
   
 ## **Where AI agents fit—and how they span layers**
 
-| Layer 7 | Agent Shell (Conversation + Orchestration)**  | - **Dialogue Manager**: Tracks history, intent, next action.<br>- **Tool/Function Calling**: Invokes APIs, scripts, databases.<br>- **Context Engineering**: Manages token budget, summaries, memory.<br>- **Safety Guardrails**: Prompt‑injection defenses, policy filters. |
+| Layer 7 | Agent Shell (Conversation + Orchestration)**  | - Dialogue Manager: Tracks history, intent, next action.<br>- Tool/Function Calling: Invokes APIs, scripts, databases.<br>- Context Engineering: Manages token budget, summaries, memory.<br>- Safety Guardrails: Prompt‑injection defenses, policy filters. |
 | ------- | --------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Layer 6 | **Serving**                                   | - **Low‑latency inference** (vLLM/TGI/TensorRT‑LLM), KV‑cache management, quantization → lets agents respond quickly.                                                                                                                                                        |
-| Layer 3 | **Retrieval & Embeddings (often called RAG)** | - **Embeddings + vector search** (FAISS, Pinecone, Cognitive Search vector) to fetch relevant enterprise documents, logs, metrics.                                                                                                                                           |
+| Layer 6 | Serving                                   | - Low‑latency inference (vLLM/TGI/TensorRT‑LLM), KV‑cache management, quantization → lets agents respond quickly.                                                                                                                                                        |
+| Layer 3 | Retrieval & Embeddings (often called RAG) | - Embeddings + vector search (FAISS, Pinecone, Cognitive Search vector) to fetch relevant enterprise documents, logs, metrics.                                                                                                                                           |
 
-
-**4) Cloud Infrastructure (cross‑cutting)**
-
-• • **AKS/Kubernetes**, storage (Blob/S3), networking (InfiniBand/RoCE), schedulers (Ray/Slurm), observability—keep agents scalable, secure, and integrated.
+**Cloud Infrastructure (cross‑cutting)**
+AKS/Kubernetes, storage (Blob/S3), networking (InfiniBand/RoCE), schedulers (Ray/Slurm), observability—keep agents scalable, secure, and integrated.
 
 ## **Mapping some AI Agent examples to the layered model**
 
