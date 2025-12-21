@@ -183,11 +183,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "51870172939221e6",
+  "active": "0202b5fe3fa28a1c",
   "lastOpenFiles": [
-    "assests",
-    "assests/The 7 Layers of an Al System.png",
+    "asset/layers-of-ai.png",
     "Conceptual Layers/Overview.md",
+    "asset/The.md",
+    "assest/The.md",
+    "assest",
+    "asset",
     "Conceptual Layers"
   ]
 }

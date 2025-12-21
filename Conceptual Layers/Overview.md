@@ -1,5 +1,4 @@
-![[assests/The 7 Layers of an Al System.png]]
-
+![](asset/layers-of-ai.png)
 
 | **Layer** | **Name**                                                                                                                                                                                                                                                  | **Input**                                                       | **Expected Output**                                                                                | **Tools & Technologies**                       |
 | --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
@@ -12,16 +11,17 @@
 | **6**     | **Serving Infra**<br><br>- Inference optimization (quantization, KV-cache management) for low-latency, cost-effective deployment.<br><br>-Distributed serving frameworks for scalability, making it commercially viable.                                  | Aligned Model weights + User request traffic.                   | **Optimized Inference Endpoints:** High-throughput, low-latency API responses.                     | vLLM, TGI, TensorRT-LLM, Quantization.         |
 | **7**     | **User Interface**<br><br>- Dialogue management, context engineering, and integration with external APIs.<br><br>- Enables two-way interaction between humans and LLMs.                                                                                   | Natural language user prompts and application context.          | **End-User Value:** Contextually relevant answers, executed actions, or generated media.           | LangChain, Semantic Kernel, Azure OpenAI.      |
 
+-----
+
 There are 3 critical trade-offs that govern the system's viability:
 
 - balancing flexibility and silicon efficiency at the foundation level
 - managing data scale versus linguistic quality at the Data level
 - and resolving the conflict between **raw performance** and **human alignment** in the upper modeling layers.
 
-  
+----
 
-  
 
-The critical battleground in the advancement of LLM technology has fundamentally shifted from training scale (Layer 4) to **inference efficiency (Layer 6)**. This shift is driven by the economic imperative to reduce memory footprint, latency, and operational cost through continuous innovation in quantization and KV-cache optimization.
+*The critical battleground in the advancement of LLM technology has fundamentally shifted from training scale (Layer 4) to **inference efficiency (Layer 6)**. This shift is driven by the economic imperative to reduce memory footprint, latency, and operational cost through continuous innovation in quantization and KV-cache optimization.*
 
-Looking forward, two significant architectural trends are apparent: the move toward **Direct Preference Optimization (DPO)** to simplify the alignment pipeline and increase transparency by removing the reward model proxy, and the increasing sophistication of **Conversational Agentic Systems (CAS)** (Layer 7), where the LLM is transformed into an orchestrator that manages complex control flow and external integrations. These trajectories indicate a future focused on tightening the integration between human alignment, operational efficiency, and real-world task execution.
+*Looking forward, two significant architectural trends are apparent: the move toward **Direct Preference Optimization (DPO)** to simplify the alignment pipeline and increase transparency by removing the reward model proxy, and the increasing sophistication of **Conversational Agentic Systems (CAS)** (Layer 7), where the LLM is transformed into an orchestrator that manages complex control flow and external integrations. These trajectories indicate a future focused on tightening the integration between human alignment, operational efficiency, and real-world task execution.*
